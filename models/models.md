@@ -1,24 +1,53 @@
-# Models used for this project
+# Models used in this project
 
-## Pre-processing of Sentinel-2 images :artificial_satellite:
+## Sentinel-2 image Pre-processing :artificial_satellite:
 
-This creates a new file Geodatabase, makes a copy of the image into it, along with a feature class of the boundary of the natural reserve 🖼️
+### 1. Create the Project Geodatabase ℹ️
 
+Create a new File Geodatabase, copy the Sentinel-2 imagery into it, and imports the Eagle Marsh boundary feature class for subsequent processing.
 
-![Eagle Marsh GIS Import Rasters model](models/Import_Rasters.PNG)
-
-
-This clips the raster images to the feature layer and resamples each image to a 10m resolution, naming it accordingly to the process ✂️
+![Eagle Marsh GIS Import Rasters model](Import_Rasters.PNG)
 
 
-![Eagle Marsh GIS Clip Resample model](models/Cut_Resample.PNG)
+### 2. Clip and Resample Imagery ✂️
+
+Clips the Sentinel-2 imagery to the Eagle Marsh boundary and resamples each raster to a 10-meter spatial resolution, generating standardized datasets for later analysis.
+
+![Eagle Marsh GIS Clip Resample model](Cut_Resample.PNG)
 
 
-A raster function was created for temporally comparing two images and calculating the wetness gain, remapping them into a designated threshold and applying focal statistics for readability :bar_chart:
+## Image analysis 🔍
+
+### 1. Wetness Change Detection (MNDWI) 💧
+
+A custom raster function compares two Sentinel-2 images acquired at different dates to calculate changes in wetness using the Modified Normalized Difference Water Index (MNDWI).
+
+The workflow:
+
+Calculates the MNDWI
+Applies threshold remapping
+Uses Focal Statistics to improve raster readability
+Produces a raster representing areas of wetness gain
+
+![Eagle Marsh GIS Raster Function MNDWI](RF_GananciaMNDWI.PNG)
 
 
-![Eagle Marsh GIS Raster Function MNDWI](models/RF_GananciaMNDWI.PNG)
+### 2. Vectorization of Wetness Gain Areas
 
-Now the resulting areas are converted into vector polygons, clipped to the area, and a specific symbology is applied :artist:
+The resulting raster is converted into vector polygons, clipped to the project boundary, and symbolized for visualization and area calculations
 
-![Eagle Marsh GIS Polygon Gains](models/Polygon_Gains.PNG)
+![Eagle Marsh GIS Polygon Gains](Polygon_Gains.PNG)
+
+
+## Importing Assets from ArcGIS Field Maps 🗺️
+
+The hosted feature layer created in ArcGIS Field Maps is imported into the local project geodatabase while preserving:
+
+Attachments
+Domains
+Attribute information
+Related tables
+
+This workflow enables offline analysis while maintaining the original data structure.
+
+![Eagle Marsh AGOL Local assets](AGOL_Local.PNG)
