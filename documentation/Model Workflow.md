@@ -1,10 +1,12 @@
 # Models used in this project
 
+The following ArcGIS ModelBuilder workflows automate the preprocessing, analysis, and management of spatial data used throughout the Eagle Marsh GIS framework.
+
 ## Sentinel-2 image Pre-processing :artificial_satellite:
 
 ### 1. Create the Project Geodatabase ℹ️
 
-Create a new File Geodatabase, copy the Sentinel-2 imagery into it, and import the Eagle Marsh boundary feature class for subsequent processing.
+Creates a new File Geodatabase, copy the Sentinel-2 imagery into it, and import the Eagle Marsh boundary feature class for subsequent processing.
 
 ![Eagle Marsh GIS Import Rasters model](../models/Import_Rasters.PNG)
 
@@ -24,17 +26,17 @@ A custom raster function compares two Sentinel-2 images acquired at different da
 
 The workflow:
 
-Calculates the MNDWI
-Applies threshold remapping
-Uses Focal Statistics to improve raster readability
-Produces a raster representing areas of wetness gain
+- Calculates the MNDWI
+- Applies threshold remapping
+- Uses Focal Statistics to improve raster readability
+- Produces a raster representing areas of wetness gain
 
 ![Eagle Marsh GIS Raster Function MNDWI](../models/RF_GananciaMNDWI.PNG)
 
 
-### 2. Vectorization of Wetness Gain Areas
+### 2. Vectorization of Wetness Gain Areas 🧩
 
-The resulting raster is converted into vector polygons, clipped to the project boundary, and symbolized for visualization and area calculations
+The resulting raster is converted into vector polygons, clipped to the project boundary, and symbolized for visualization and quantitative area analysis.
 
 ![Eagle Marsh GIS Polygon Gains](../models/Polygon_Gains.PNG)
 
@@ -43,10 +45,10 @@ The resulting raster is converted into vector polygons, clipped to the project b
 
 The hosted feature layer created in ArcGIS Field Maps is imported into the local project geodatabase while preserving:
 
-Attachments
-Domains
-Attribute information
-Related tables
+- Attachments
+- Domains
+- Attribute information
+- Related tables
 
 This workflow enables offline analysis while maintaining the original data structure.
 
