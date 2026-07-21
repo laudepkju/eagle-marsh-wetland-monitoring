@@ -4,16 +4,16 @@
 
 ### 1. Create the Project Geodatabase ℹ️
 
-Create a new File Geodatabase, copy the Sentinel-2 imagery into it, and imports the Eagle Marsh boundary feature class for subsequent processing.
+Create a new File Geodatabase, copy the Sentinel-2 imagery into it, and import the Eagle Marsh boundary feature class for subsequent processing.
 
-![Eagle Marsh GIS Import Rasters model](images/Import_Rasters.PNG)
+![Eagle Marsh GIS Import Rasters model](../models/Import_Rasters.PNG)
 
 
 ### 2. Clip and Resample Imagery ✂️
 
 Clips the Sentinel-2 imagery to the Eagle Marsh boundary and resamples each raster to a 10-meter spatial resolution, generating standardized datasets for later analysis.
 
-![Eagle Marsh GIS Clip Resample model](images/Cut_Resample.PNG)
+![Eagle Marsh GIS Clip Resample model](../models/Cut_Resample.PNG)
 
 
 ## Image analysis 🔍
@@ -29,14 +29,14 @@ Applies threshold remapping
 Uses Focal Statistics to improve raster readability
 Produces a raster representing areas of wetness gain
 
-![Eagle Marsh GIS Raster Function MNDWI](images/RF_GananciaMNDWI.PNG)
+![Eagle Marsh GIS Raster Function MNDWI](../models/RF_GananciaMNDWI.PNG)
 
 
 ### 2. Vectorization of Wetness Gain Areas
 
 The resulting raster is converted into vector polygons, clipped to the project boundary, and symbolized for visualization and area calculations
 
-![Eagle Marsh GIS Polygon Gains](images/Polygon_Gains.PNG)
+![Eagle Marsh GIS Polygon Gains](../models/Polygon_Gains.PNG)
 
 
 ## Importing Assets from ArcGIS Field Maps 🗺️
@@ -50,4 +50,4 @@ Related tables
 
 This workflow enables offline analysis while maintaining the original data structure.
 
-![Eagle Marsh AGOL Local assets](images/AGOL_Local.PNG)
+![Eagle Marsh AGOL Local assets](../models/AGOL_Local.PNG)
