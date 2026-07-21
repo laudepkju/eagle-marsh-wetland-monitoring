@@ -42,6 +42,9 @@ The workflow incorporated:
   * Spatial context for wetland analysis
 
 ---
+## Project Workflow
+
+![Eagle Marsh GIS Workflow](images/FlowDiagram_EagleMarsh.png)
 
 ## ⚙️ Methodology
 
