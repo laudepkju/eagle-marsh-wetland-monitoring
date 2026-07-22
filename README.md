@@ -1,5 +1,7 @@
 # 🌿 Eagle Marsh Wetland Monitoring System
 
+![Main image Polygon MNDWI gains](images/Polygongains.png)
+
 ## 🗺️ Remote Sensing & GIS Workflow for Wetland Moisture Analysis
 
 ## Project Overview
