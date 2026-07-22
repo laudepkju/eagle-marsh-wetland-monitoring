@@ -16,6 +16,11 @@ Downloaded from Indianamap.org and used for determining the slope and making sur
 
 Feature layer "HUC 12" downloaded from IndianaMap.org
 
+## LIDAR Dataset for Fort Wayne West
+
+Downloaded from Indianamap.org, used for creating the terrain layer that would enable the 3D rendering for running the precipitation simulation
+
+
 
 
 
