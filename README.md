@@ -10,6 +10,8 @@ Wetland ecosystems require continuous monitoring to understand seasonal changes 
 
 This project developed a GIS-based monitoring workflow to evaluate moisture variation within **Eagle Marsh**, an approximately **800-acre wetland ecosystem**, using satellite imagery, raster analysis, and automated geoprocessing tools.
 
+![EM Location](images/EM_Localizacion.PNG)
+
 The goal was to create a repeatable spatial workflow that supports environmental analysis and helps communicate changing landscape conditions to conservation and management stakeholders.
 
 ---
@@ -61,6 +63,8 @@ Calculated spectral indices including:
 
 These indices were used to evaluate moisture and surface water patterns across different time periods.
 
+![MNDWI calculation](images/8_MNDWI_Ganancia_Assets-text.PNG)
+
 ### GIS Processing Workflow
 
 The project incorporated:
@@ -110,17 +114,25 @@ The project produced:
 
 * Communicates project background, methodology, and findings
 
+![Storymap Cover](images/EM_storymap_cover.PNG)
+
 📈 **Dashboard**
 
 * Provides visual summaries of spatial analysis results
+
+![dashboard](images/7_dashboard.PNG)
 
 ⚙️ **ModelBuilder Workflows**
 
 * Documents repeatable GIS processing steps
 
+![ModelBuilder](models/Cut_Resample.PNG)
+
 🎥 **Project Visualization**
 
 * Time-based visualization of landscape changes
+
+![Flood Simulation](images/6_floodsim-text.PNG)
 
 ---
 
@@ -133,11 +145,12 @@ eagle-marsh-wetland-monitoring/
 │
 ├── images/
 │   ├── maps/
-│   ├── workflows/
 │   └── screenshots/
 │
-├── documentation/
-│   └── project-summary.pdf
+├── docs/
+│   └── Framework.md
+        Model Workflow.md
+|
 │
 ├── models/
 │   └── modelbuilder-workflows/
