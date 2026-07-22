@@ -63,7 +63,7 @@ Calculated spectral indices including:
 
 These indices were used to evaluate moisture and surface water patterns across different time periods.
 
-![MNDWI calculation](images/8_MNDWI_Ganancia_Assets-text.PNG)
+![MNDWI calculation](images/8_MNDWI_Ganacia_Assets-text.PNG)
 
 ### GIS Processing Workflow
 
