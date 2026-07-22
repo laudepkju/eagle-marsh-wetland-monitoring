@@ -10,7 +10,7 @@ Only bands 3 (green) and 11 (SWIR) were used for the calculation of MNDWI
 
 Downloaded from Indianamap.org and used for determining the slope and making sure that the area is indeed a wetland
 
-![EM Slope](images/2_EM_Pendiente-text.PNG)
+![EM Slope](../images/2_EM_Pendiente-text.PNG)
 
 ## Watersheds
 
