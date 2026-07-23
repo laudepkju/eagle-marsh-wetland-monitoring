@@ -1,8 +1,9 @@
-# Project Deliverables
+# GIS Solution Components
 
 The completed framework produces a series of complementary GIS products:
 
 ## ArcGIS Pro project
+![ArcGIS Pro](../images/ArcGISPRO_Project)
 
 ## Automated ModelBuilder workflows
   ![ModelBuilder main](../models/AGOL_Local.PNG)
