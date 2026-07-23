@@ -40,7 +40,7 @@ The temporal comparison identifies areas where surface moisture has increased or
 Digital Elevation Model (DEM) data was used to derive terrain characteristics and slope gradients, providing additional context for interpreting water accumulation patterns and understanding the hydrologic behavior of the wetland.
 
 <p align="center">
-  <img src="../images/2_EM_Pendiente-text.PNG" width="850">
+  <img src="../images/EM_Pendiente.png" width="850">
 </p>
 
   
