@@ -128,7 +128,7 @@ This scalability makes the framework suitable for long-term wetland monitoring w
 
 ---
 
-# Project Deliverables
+# GIS Solution Components
 
 The completed framework produces a series of complementary GIS products:
 
