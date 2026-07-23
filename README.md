@@ -146,7 +146,7 @@ The project produced:
 
 * Time-based visualization of landscape changes
 <p align="center">
-  <img src="images/Simulacion_2026.mp4" width="450">
+  <img src="https://github.com/laudepkju/eagle-marsh-wetland-monitoring/blob/main/images/FloodSim.gif" width="450">
 </p>
 
 ---
