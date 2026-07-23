@@ -146,7 +146,7 @@ The project produced:
 
 * Time-based visualization of landscape changes
 <p align="center">
-  <img src="images/6_floodsim-text.PNG" width="650">
+  <img src="images/Simulacion_2026.mp4" width="450">
 </p>
 
 ---
