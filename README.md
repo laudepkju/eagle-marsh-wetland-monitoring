@@ -9,6 +9,8 @@
 
 ## Project Overview
 
+Automated GIS framework developed to evaluate seasonal wetness variation in Eagle Marsh using Sentinel-2 imagery, spectral indices, and ArcGIS geoprocessing workflows. The project integrates remote sensing, ModelBuilder automation, and web GIS tools to support wetland monitoring and management decisions.
+
 Wetland ecosystems require continuous monitoring to understand seasonal changes in water availability, habitat conditions, and environmental patterns.
 
 This project developed a GIS-based monitoring workflow to evaluate moisture variation within **Eagle Marsh**, an approximately **800-acre wetland ecosystem**, using satellite imagery, raster analysis, and automated geoprocessing tools.
@@ -17,8 +19,6 @@ This project developed a GIS-based monitoring workflow to evaluate moisture vari
   <img src="images/EM_Location.PNG" width="750">
 </p>
 
-
-The goal was to create a repeatable spatial workflow that supports environmental analysis and helps communicate changing landscape conditions to conservation and management stakeholders.
 
 ---
 
@@ -29,7 +29,7 @@ The project focused on:
 * Analyzing seasonal moisture changes within Eagle Marsh
 * Applying remote sensing techniques to identify surface water and vegetation moisture patterns
 * Developing repeatable GIS workflows for raster processing
-* Creating visual outputs that communicate spatial trends for decision-making
+* Creating GIS Products that communicate spatial trends for decision-making
 
 ---
 
