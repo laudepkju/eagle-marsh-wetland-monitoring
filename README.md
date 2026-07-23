@@ -1,6 +1,9 @@
 # 🌿 Eagle Marsh Wetland Monitoring System
 
-![Main image Polygon MNDWI gains](images/Polygongains.png)
+<p align="center">
+  <img src="images/Polygongains.png" width="750">
+</p>
+
 
 ## 🗺️ Remote Sensing & GIS Workflow for Wetland Moisture Analysis
 
@@ -10,7 +13,10 @@ Wetland ecosystems require continuous monitoring to understand seasonal changes 
 
 This project developed a GIS-based monitoring workflow to evaluate moisture variation within **Eagle Marsh**, an approximately **800-acre wetland ecosystem**, using satellite imagery, raster analysis, and automated geoprocessing tools.
 
-![EM Location](images/EM_Location.PNG)
+<p align="center">
+  <img src="images/EM_Location.PNG" width="750">
+</p>
+
 
 The goal was to create a repeatable spatial workflow that supports environmental analysis and helps communicate changing landscape conditions to conservation and management stakeholders.
 
@@ -48,7 +54,10 @@ The workflow incorporated:
 ---
 ## Project Workflow
 
-![Eagle Marsh GIS Workflow](images/FlowDiagram_EagleMarsh.png)
+<p align="center">
+  <img src="images/FlowDiagram_EagleMarsh.png" width="750">
+</p>
+
 
 ## ⚙️ Methodology
 
@@ -85,7 +94,7 @@ ArcGIS Pro ModelBuilder was used to create repeatable geoprocessing workflows, r
 ### GIS
 
 * ArcGIS Pro
-* ArcGIS Online
+* ArcGIS Online (FieldMaps, Survey123, QuickCapture)
 * ArcGIS StoryMaps
 * ArcGIS Dashboards
 * ModelBuilder
@@ -111,26 +120,34 @@ The project produced:
 🌎 **Interactive StoryMap**
 
 * Communicates project background, methodology, and findings
+<p align="center">
+  <img src="images/EM_storymap_cover.PNG" width="750">
+</p>
 
-![Storymap Cover](images/EM_storymap_cover.PNG)
 
 📈 **Dashboard**
 
 * Provides visual summaries of spatial analysis results
+<p align="center">
+  <img src="images/7_dashboard.PNG" width="750">
+</p>
 
-![dashboard](images/7_dashboard.PNG)
+
 
 ⚙️ **ModelBuilder Workflows**
 
 * Documents repeatable GIS processing steps
+<p align="center">
+  <img src="models/Cut_Resample.PNG" width="650">
+</p>
 
-![ModelBuilder](models/Cut_Resample.PNG)
 
 🎥 **Project Visualization**
 
 * Time-based visualization of landscape changes
-
-![Flood Simulation](images/6_floodsim-text.PNG)
+<p align="center">
+  <img src="images/6_floodsim-text.PNG" width="650">
+</p>
 
 ---
 
@@ -141,19 +158,21 @@ eagle-marsh-wetland-monitoring/
 
 ├── README.md
 │
-├── images/
+├── data/
+│   └── README.md
 │
 ├── docs/
 │   └── Analytical Framework.md
-│   └── ModelBuilder Workflow.md
 │   └── GIS Solution Components.md
-|
+│   └── ModelBuilder Workflow.md
+│
+├── images/
 │
 ├── models/
 │   └── modelbuilder screenshots
 │
 └── scripts/
-    └── future-automation/
+    └── Future_Improvements/
 ```
 
 ---
