@@ -32,6 +32,29 @@ The project focused on:
 * Creating GIS Products that communicate spatial trends for decision-making
 
 ---
+## 🛠️ Technologies Used
+
+### GIS
+
+* ArcGIS Pro
+* ArcGIS Online (FieldMaps, Survey123, QuickCapture)
+* ArcGIS StoryMaps
+* ArcGIS Dashboards
+* ModelBuilder
+
+### Remote Sensing
+
+* Sentinel-2 imagery
+* Raster analysis
+* Spectral indices
+
+### Data & Programming
+
+* Python (future workflow automation)
+* Spatial data management
+* Geoprocessing concepts
+
+---
 
 ## 🛰️ Data Sources
 
@@ -88,30 +111,11 @@ The project incorporated:
 ArcGIS Pro ModelBuilder was used to create repeatable geoprocessing workflows, reducing manual processing steps and improving consistency.
 
 ---
+## 🟢 Project Status
 
-## 🛠️ Technologies Used
+Completed as the capstone project for the **MasterGIS Online Program by Esri Spain**, with a double credential from **Universidad Católica de Murcia (UCAM)**.
 
-### GIS
-
-* ArcGIS Pro
-* ArcGIS Online (FieldMaps, Survey123, QuickCapture)
-* ArcGIS StoryMaps
-* ArcGIS Dashboards
-* ModelBuilder
-
-### Remote Sensing
-
-* Sentinel-2 imagery
-* Raster analysis
-* Spectral indices
-
-### Data & Programming
-
-* Python (future workflow automation)
-* Spatial data management
-* Geoprocessing concepts
-
----
+The resulting GIS framework demonstrates an automated approach for wetland monitoring, combining remote sensing analysis, geoprocessing workflows, and web GIS technologies to support future operational applications.
 
 ## 📊 Project Outputs
 
