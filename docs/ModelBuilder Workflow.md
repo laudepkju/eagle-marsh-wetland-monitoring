@@ -8,14 +8,19 @@ The following ArcGIS ModelBuilder workflows automate the preprocessing, analysis
 
 Creates a new File Geodatabase, copy the Sentinel-2 imagery into it, and import the Eagle Marsh boundary feature class for subsequent processing.
 
-![Eagle Marsh GIS Import Rasters model](../models/Import_Rasters.PNG)
+<p align="center">
+  <img src="../models/Import_Rasters.PNG" width="550">
+</p>
+
 
 
 ### 2. Clip and Resample Imagery ✂️
 
 Clips the Sentinel-2 imagery to the Eagle Marsh boundary and resamples each raster to a 10-meter spatial resolution, generating standardized datasets for later analysis.
 
-![Eagle Marsh GIS Clip Resample model](../models/Cut_Resample.PNG)
+<p align="center">
+  <img src="../models/Cut_Resample.PNG" width="550">
+</p>
 
 
 ## Image analysis 🔍
@@ -31,15 +36,18 @@ The workflow:
 - Uses Focal Statistics to improve raster readability
 - Produces a raster representing areas of wetness gain
 
-![Eagle Marsh GIS Raster Function MNDWI](../models/RF_GananciaMNDWI.PNG)
+<p align="center">
+  <img src="../models/RF_GananciaMNDWI.PNG" width="550">
+</p>
 
 
 ### 2. Vectorization of Wetness Gain Areas 🧩
 
 The resulting raster is converted into vector polygons, clipped to the project boundary, and symbolized for visualization and quantitative area analysis.
 
-![Eagle Marsh GIS Polygon Gains](../models/Polygon_Gains.PNG)
-
+<p align="center">
+  <img src="../models/Polygon_Gains.PNG" width="550">
+</p>
 
 ## Importing Assets from ArcGIS Field Maps 🗺️
 
@@ -52,4 +60,6 @@ The hosted feature layer created in ArcGIS Field Maps is imported into the local
 
 This workflow enables offline analysis while maintaining the original data structure.
 
-![Eagle Marsh AGOL Local assets](../models/AGOL_Local.PNG)
+<p align="center">
+  <img src="../models/AGOL_Local.PNG" width="550">
+</p>
